@@ -1,4 +1,4 @@
-package FrameBuild.Annotation;
+package com.liteSpring.FrameBuild.Annotation;
 @urlPort(url= "sqube.com")
 public class TestAservice1 {
     @TestAnnotation1()

@@ -1,13 +1,11 @@
-package FrameBuild.Annotation;
-
+package com.liteSpring.FrameBuild.Annotation;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.TYPE) // where i want this to work
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface urlPort {
-    String url();
-    int port() default 6969;
+public @interface Packages {
+    String[] scanPackages();
 }

@@ -1,4 +1,4 @@
-package FrameBuild.Annotation;
+package com.liteSpring.FrameBuild.Annotation;
 
 import java.lang.reflect.Method;
 
