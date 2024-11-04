@@ -9,14 +9,10 @@ public class Main {
 
         //String s ="Main.class";
         //System.out.print(s.endsWith(".class"));
-//         Classes test= new Classes();
-//        try {
-//    Absolute path =  C:\Users\Sherajus Salehin\Documents\Java practice\Java_practice\FrameBuilding\src
-//            test.scan(new File("src/FrameBuild"),"FrameBuild");
-//
-//        } catch (ClassNotFoundException e) {
-//            throw new RuntimeException(e);
-//        }
+        String pkg="com.liteSpring.FrameBuild";
+
+//out//production//FrameBuilding
+        //System.out.println("out//production//FrameBuilding//"+pkg.replace(".","//"));
 
 
 //        File resource=new File("com.liteSpring.FrameBuild");
@@ -26,19 +22,6 @@ public class Main {
 //            throw new RuntimeException(e);
 //        }
 
-        File tester = new File("src/com/liteSpring/FrameBuild");
-        String[] files = null;
-        if (tester.isDirectory() && tester.exists()) {
-            files = tester.list();
-        }
-        List <String> allFiles= new ArrayList<>();
-        for (String file:files){
-            if (file.contains(".")){
-                while (true){
-
-                }
-            }
-        }
 
 }}
 

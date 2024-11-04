@@ -7,7 +7,12 @@ import java.util.List;
 
 public class Tree {
     public static void main(String[]ar){
-        File root=new File("src/com/liteSpring/FrameBuild");
+       // File root=new File("src/com/liteSpring/FrameBuild");
+        //
+        String pkg="com.liteSpring.FrameBuild";
+        String [] Lname=pkg.split("\\.");
+        System.out.println(Lname[Lname.length-1]);
+        File root=new File("out//production//FrameBuilding//"+pkg.replace(".","//"));
         List<File> dirs=new ArrayList<>();
         List<String> allFiles=new ArrayList<>();
         dirs.add(root);
