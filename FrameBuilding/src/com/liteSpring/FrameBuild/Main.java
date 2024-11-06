@@ -10,6 +10,20 @@ public class Main {
         //String s ="Main.class";
         //System.out.print(s.endsWith(".class"));
         String pkg="com.liteSpring.FrameBuild";
+        String dir="out\\production\\FrameBuilding\\";
+        Tree t1= new Tree();
+
+        try {
+            t1.scanClass(pkg,dir);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        //        try {
+                //            List<Class<?>> testA= t1.scan(pkg);
+                //        } catch (ClassNotFoundException e) {
+                //            throw new RuntimeException(e);
+                //        }
+        // System.out.println(className);
 
 //out//production//FrameBuilding
         //System.out.println("out//production//FrameBuilding//"+pkg.replace(".","//"));
