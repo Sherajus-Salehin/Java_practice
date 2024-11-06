@@ -18,24 +18,6 @@ public class Main {
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
-        //        try {
-                //            List<Class<?>> testA= t1.scan(pkg);
-                //        } catch (ClassNotFoundException e) {
-                //            throw new RuntimeException(e);
-                //        }
-        // System.out.println(className);
-
-//out//production//FrameBuilding
-        //System.out.println("out//production//FrameBuilding//"+pkg.replace(".","//"));
-
-
-//        File resource=new File("com.liteSpring.FrameBuild");
-//        try {
-//            Classes.scan(new File(resource.getPath()), "com.liteSpring.FrameBuild");
-//        } catch (ClassNotFoundException e) {
-//            throw new RuntimeException(e);
-//        }
-
-
-}}
+    }
+}
 
