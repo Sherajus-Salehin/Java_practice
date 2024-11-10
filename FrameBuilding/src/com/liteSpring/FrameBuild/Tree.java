@@ -36,7 +36,7 @@ public class Tree {
     public List<Class<?>> scanClass(String pkg, String dir) throws ClassNotFoundException {
         List<Class<?>> ClassList= new ArrayList<>();
         List<String> FileTree= scanFiles(pkg,dir);
-        String Froot=dir;
+        //String Froot=dir;
         for (String path:FileTree){
             path=path.replace(dir,"").replace(".class","").replace("\\",".");
             //System.out.println(path);
