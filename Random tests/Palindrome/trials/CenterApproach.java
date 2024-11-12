@@ -1,5 +1,7 @@
+package Palindrome.trials;
+
 import java.util.Scanner;
-public class Palindrome {
+public class CenterApproach {
     public static void main(String[]ar){
         Scanner s= new Scanner(System.in);
         String word= s.next();
