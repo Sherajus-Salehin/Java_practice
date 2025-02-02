@@ -1,49 +1,28 @@
-class Solution {
+class Solutionv2 {
     int r, c;
     int[][] graph;
     boolean[][] visited;
-    public int findMaxFish(int[][] grid) {
-        r = grid.length;
-        c = grid[0].length;
-        visited = new boolean[r][c];
-        graph = grid;
-        int maxFish = 0;
-
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                if (graph[i][j] != 0 && !visited[i][j]) {
-                    maxFish = Math.max(maxFish, dfs(i, j));
-                }
-            }
-        }
-        return maxFish;
-    }
-
     public int largestIsland(int[][] grid) {
         r = grid.length;
         c = grid[0].length;
         visited = new boolean[r][c];
         graph = grid;
         int Isize=0;
-        for(int rows=0;rows<r;rows++){
-            for(int cols=0;cols<c;cols++){
-                if (grid[rows][cols]==0){
-                    grid[rows][cols]=1;
-                    //working ok to this point
-                    //main loop start
-                    visited=new boolean[r][c];
+         visited=new boolean[r][c];
                     for (int i = 0; i < r; i++) {
                         for (int j = 0; j < c; j++) {
                             if (graph[i][j] != 0 && !visited[i][j]) {
                                 Isize = Math.max(Isize, dfs(i, j));
+                            } else if (graph[i][j]==0) {
+                                graph[i][j]=1;
+                                visited=new boolean[r][c];
+                                Isize = Math.max(Isize, dfs(i, j));
+                                graph[i][j]=0;
                             }
                         }
                     }
                     //main loop end
-                    grid[rows][cols]=0;
-                }
-            }
-        }
+
         return Isize;
     }
 
