@@ -18,7 +18,9 @@ public class tester {
 //            System.out.print(" "+b+" ");
 //        lc605v2 t1=new lc605v2();
 //        System.out.print(t1.canPlaceFlowers(new int[]{0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0},17));
-lc1752 l1=new lc1752();
-System.out.print(l1.check(new int[]{1,2,3}));
+//lc1752 l1=new lc1752();
+//System.out.print(l1.check(new int[]{1,2,3}));
+lc3105 l1=new lc3105();
+System.out.print(l1.longestMonotonicSubarray(new int[]{1,4,3,3,2}));
     }
 }
