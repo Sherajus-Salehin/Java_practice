@@ -20,7 +20,9 @@ public class tester {
 //        System.out.print(t1.canPlaceFlowers(new int[]{0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0},17));
 //lc1752 l1=new lc1752();
 //System.out.print(l1.check(new int[]{1,2,3}));
-lc3105 l1=new lc3105();
-System.out.print(l1.longestMonotonicSubarray(new int[]{1,4,3,3,2}));
+//lc3105 l1=new lc3105();
+//System.out.print(l1.longestMonotonicSubarray(new int[]{1,4,3,3,2}));
+lc1800 l1=new lc1800();
+System.out.print(l1.maxAscendingSum(new int[]{10,20,30,40,50}));
     }
 }
