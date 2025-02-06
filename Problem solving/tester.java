@@ -22,7 +22,12 @@ public class tester {
 //System.out.print(l1.check(new int[]{1,2,3}));
 //lc3105 l1=new lc3105();
 //System.out.print(l1.longestMonotonicSubarray(new int[]{1,4,3,3,2}));
-lc1800 l1=new lc1800();
-System.out.print(l1.maxAscendingSum(new int[]{10,20,30,40,50}));
+//lc1800 l1=new lc1800();
+//System.out.print(l1.maxAscendingSum(new int[]{10,20,30,40,50}));
+//
+//lc1790 l1=new lc1790();
+//System.out.println(l1.areAlmostEqual("kelp","kelp"));
+        lc1726 l1=new lc1726();
+        System.out.println(l1.tupleSameProduct(new int[]{2,3,4,6,8,12}));
     }
 }
