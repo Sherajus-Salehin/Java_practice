@@ -27,7 +27,9 @@ public class tester {
 //
 //lc1790 l1=new lc1790();
 //System.out.println(l1.areAlmostEqual("kelp","kelp"));
-        lc1726 l1=new lc1726();
-        System.out.println(l1.tupleSameProduct(new int[]{2,3,4,6,8,12}));
+//        lc1726 l1=new lc1726();
+//        System.out.println(l1.tupleSameProduct(new int[]{2,3,4,6,8,12}));
+lc1910 lc1=new lc1910();
+System.out.println(lc1.removeOccurrences("daabcbaabcbc","abc"));
     }
 }
