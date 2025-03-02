@@ -29,7 +29,16 @@ public class tester {
 //System.out.println(l1.areAlmostEqual("kelp","kelp"));
 //        lc1726 l1=new lc1726();
 //        System.out.println(l1.tupleSameProduct(new int[]{2,3,4,6,8,12}));
-lc1910 lc1=new lc1910();
-System.out.println(lc1.removeOccurrences("daabcbaabcbc","abc"));
+//lc1910 lc1=new lc1910();
+//System.out.println(lc1.removeOccurrences("daabcbaabcbc","abc"));
+//lc2342 l1=new lc2342();
+//System.out.println(l1.maximumSum(new int[]{4,6,10,6}));
+        int n=55;
+        int su=0;
+        while(n>0){
+            su+=n%10;
+            n/=10;
+        }
+        System.out.println(su);
     }
 }
