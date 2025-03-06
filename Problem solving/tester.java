@@ -33,12 +33,17 @@ public class tester {
 //System.out.println(lc1.removeOccurrences("daabcbaabcbc","abc"));
 //lc2342 l1=new lc2342();
 //System.out.println(l1.maximumSum(new int[]{4,6,10,6}));
-        int n=55;
-        int su=0;
-        while(n>0){
-            su+=n%10;
-            n/=10;
-        }
-        System.out.println(su);
-    }
-}
+//        int n=55;
+//        int su=0;
+//        while(n>0){
+//            su+=n%10;
+//            n/=10;
+//        }
+//        lt151 l1=new lt151();
+//        System.out.println(l1.reverseWords("a good   example"));
+//lc238
+        lc334 l=new lc334();
+        boolean ans=l.increasingTriplet(new int[]{1,1,1,1,1,1});
+
+            System.out.println(ans);
+}}
