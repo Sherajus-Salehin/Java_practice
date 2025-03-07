@@ -42,8 +42,25 @@ public class tester {
 //        lt151 l1=new lt151();
 //        System.out.println(l1.reverseWords("a good   example"));
 //lc238
-        lc334 l=new lc334();
-        boolean ans=l.increasingTriplet(new int[]{1,1,1,1,1,1});
+//        lc334 l=new lc334();
+//        boolean ans=l.increasingTriplet(new int[]{1,1,1,1,1,1});
+//
+//            System.out.println(ans);
 
-            System.out.println(ans);
-}}
+
+lc443 l=new lc443();
+System.out.println(l.compress(new char[]{'a','b','b','b','b','b','b','b','b','b','b','b','b'}));
+System.out.println(l.ch);
+
+//        int t=21;
+//        int su=0;
+//        while(t>0){
+//            //su+=t%10;
+//            System.out.println(t%10);
+//            int digit=t%10;
+//
+//            t/=10;
+//        }
+
+
+    }}
