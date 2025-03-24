@@ -48,9 +48,9 @@ public class tester {
 //            System.out.println(ans);
 
 
-lc443 l=new lc443();
-System.out.println(l.compress(new char[]{'a','b','b','b','b','b','b','b','b','b','b','b','b'}));
-System.out.println(l.ch);
+//lc443 l=new lc443();
+//System.out.println(l.compress(new char[]{'a','b','b','b','b','b','b','b','b','b','b','b','b'}));
+//System.out.println(l.ch);
 
 //        int t=21;
 //        int su=0;
@@ -61,6 +61,7 @@ System.out.println(l.ch);
 //
 //            t/=10;
 //        }
-
+lc392 st=new lc392();
+System.out.println(st.isSubsequence("axc","ahbgdc"));
 
     }}
