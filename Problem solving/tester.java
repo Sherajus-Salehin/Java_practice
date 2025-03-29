@@ -61,7 +61,11 @@ public class tester {
 //
 //            t/=10;
 //        }
-lc392 st=new lc392();
-System.out.println(st.isSubsequence("axc","ahbgdc"));
+//lc392 st=new lc392();
+////System.out.println(st.isSubsequence("axc","ahbgdc"));
+//        lc11 wh1=new lc11();
+//        System.out.println(wh1.maxArea(new int[]{1,0}));
 
+    lc1679 ks=new lc1679();
+        System.out.println(ks.maxOperations(new int[]{1,2,3,4},5));
     }}
