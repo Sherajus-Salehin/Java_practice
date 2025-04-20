@@ -66,6 +66,9 @@ public class tester {
 //        lc11 wh1=new lc11();
 //        System.out.println(wh1.maxArea(new int[]{1,0}));
 
-    lc1679 ks=new lc1679();
-        System.out.println(ks.maxOperations(new int[]{1,2,3,4},5));
+//    lc1679 ks=new lc1679();
+//        System.out.println(ks.maxOperations(new int[]{1,2,3,4},5));
+
+    lc643 l1=new lc643();
+        System.out.println(l1.findMaxAverage(new int[]{-1},1));
     }}
