@@ -69,6 +69,8 @@ public class tester {
 //    lc1679 ks=new lc1679();
 //        System.out.println(ks.maxOperations(new int[]{1,2,3,4},5));
 
-    lc643 l1=new lc643();
-        System.out.println(l1.findMaxAverage(new int[]{-1},1));
+//    lc643 l1=new lc643();
+//        System.out.println(l1.findMaxAverage(new int[]{-1},1));
+lc869 l=new lc869();
+System.out.println(l.reorderedPowerOf2(1234));
     }}
